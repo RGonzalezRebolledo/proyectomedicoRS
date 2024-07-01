@@ -1,10 +1,14 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +43,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

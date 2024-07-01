@@ -1,0 +1,39 @@
+.container {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  border: purple solid;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.logo span img {
+  height: 2rem;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: red solid;
+}
+
+.navbar li {
+  /* list-style: none; */
+  border: green solid;
+}
+
+.btn {
+  border: red solid;
+}

@@ -1,12 +1,14 @@
 import './App.css'
-import Login from './views/login/Login'
-import Register from './views/register/Register'
+import NavBar from './component/NavBar'
+// import Login from './views/login/Login'
+// import Register from './views/register/Register'
 
 function App() {
   return (
     <>
-      <Login />
-      <Register />
+      <NavBar />
+      {/* <Login /> */}
+      {/* <Register /> */}
     </>
   )
 }
